@@ -2,6 +2,22 @@
 
 An interactive, web-based application for financial forecasting built purely in Python. It leverages **Meta's Prophet** algorithm to predict future trends such as business revenue, expenses, or stock prices based on historical data.
 
+---
+
+## 📸 Demonstration
+
+### Full Video Walkthrough
+Watch the application fetch live data, run the machine learning model, and generate an interactive forecast visualization:
+
+![Video Walkthrough](assets/forecast_demo.webp)
+
+### Interactive Forecasting
+The tool displays historical data and a future projection with a 95% confidence interval clearly plotted using Plotly:
+
+![Forecast Visualization](assets/forecast_chart.png)
+
+---
+
 ## Features ✨
 - **Dual Connection**: Upload your own custom historical data via CSV, or automatically fetch live stock market data using `yfinance` by just entering a ticker symbol (e.g., `AAPL`, `MSFT`).
 - **Data Insights**: Instantly view raw data snapshots and summary statistics for your datasets.
